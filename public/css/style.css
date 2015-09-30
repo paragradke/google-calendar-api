@@ -1,0 +1,135 @@
+#listHeader {
+    display: inline-block;
+}
+
+#listHeader ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: inline-block;
+}
+
+#userdiv  {
+    display: inline-block;
+    width: 100px;
+}
+
+
+#formdiv  {
+    display: inline-block;
+}
+
+#listHeader ul li {
+    display: table-cell;
+    text-align: center;
+    padding-left: 2em;
+    padding-right: 5em;
+}
+
+#listHeader ul li:first-child {
+    text-align: left;
+}
+
+#listHeader ul li:last-child {
+    text-align: right;
+}
+
+#listHeader ul li span {
+    padding-left: 3em;
+    padding-left: 3em;
+}
+
+#addNewEvent {
+    position: absolute;
+    display: inline-block;
+    border-style: solid;
+    margin: 84px;
+    width: 80%;
+    height: 450px;
+    padding: 55px;
+
+}
+.dateclass{
+    position: relative;
+    width: 140px;
+    height: 25px;
+    display: inline;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+.timeclass{
+    position: relative;
+    display: inline;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+#inputendDate{
+    position: relative;
+    display: inline;
+    margin-left: 65px;
+    margin-right: 45px;
+}
+#inputendTime{
+    position: relative;
+    display: inline;
+    margin-left: 61px;
+}
+#inputSummary{
+    position: relative;
+    width: 250px;
+    height: 25px;
+    display: inline;
+    margin-left: 45px;
+}
+#timeZonePicker{
+    position: relative;
+    width: 201px;
+    height: 25px;
+    display: inline;
+    margin-left: 30px;
+}
+#chck{
+    position: relative;
+    display: inline;
+    margin-left: 130px;
+}
+#chkrepeat {
+    position: relative;
+    display: inline;
+    margin-left: 10px;
+}
+#inputlocation{
+    position: relative;
+    width: 250px;
+    height: 25px;
+    display: inline;
+    margin-left: 69px;
+    margin-top: 25px;
+}
+#inputguestemail{
+    position: relative;
+    width: 250px;
+    height: 25px;
+    display: inline;
+    margin-left: 45px;
+}
+#inputdescription{
+    position: relative;
+    width: 250px;
+    display: inline;
+    margin-left: 45px;
+
+}
+.descp {
+    position: relative;
+}
+
+#test1 {
+    position: absolute;
+    display: inline;
+    border-style: solid;
+    margin: 20px;
+    width: 30%;
+    height: 115px;
+    padding: 7px;
+}
