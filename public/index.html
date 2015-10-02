@@ -9,6 +9,17 @@
     <link href="css/style.css" type="text/css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false&libraries=places"></script>
+    <script type="text/javascript">
+        function initialize() {
+            var input = document.getElementById('searchTextField');
+            var options = {componentRestrictions: {country: 'us'}};
+
+            new google.maps.places.Autocomplete(input, options);
+        }
+
+        google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
     <script type="text/javascript">
         // Your Client ID can be retrieved from your project in the Google
         // Developer Console, https://console.developers.google.com
@@ -233,8 +244,9 @@
         <!-- -->
 
         <div class="form-group">
-            <label for="inputlocation">Where :</label>
-            <input type="text" class="form-control" id="inputlocation" placeholder="Location" name="location">
+            <label for="searchTextField">Where :</label>
+         <!--   <input type="text" class="form-control" id="inputlocation" placeholder="Location" name="location"> -->
+            <input id="searchTextField" class="form-control" type="text" size="50" name="location">
         </div>
         <div class="form-group">
             <label for="inputguestemail">Add guest :</label>
